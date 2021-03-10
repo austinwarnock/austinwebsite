@@ -138,11 +138,6 @@ export const resumeData = {
                 "url": "https://github.com/austinwarnock/DataNetworks"
             }
         ]
-    },
-    "testimonials": {
-        "testimonials": [{
-            "text": "2006 Time Person of the Year.",
-            "user": "Time Magazine"
-        }]
     }
+    
 }

@@ -5,7 +5,7 @@ import Footer from './Components/Footer';
 // PAGES
 import About from './Routes/About';
 import Resume from './Routes/Resume';
-import Testimonials from './Routes/Testimonials';
+import Gallery from './Routes/Gallery';
 import Portfolio from './Routes/Portfolio';
 
 export default (
@@ -14,7 +14,7 @@ export default (
     <About />
     <Resume />
     <Portfolio />
-    <Testimonials />
+    <Gallery />
     <Footer />
   </React.Fragment>
 );

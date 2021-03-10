@@ -28,7 +28,7 @@ const Header = () => {
           <li><NavLink className="smoothscroll" to="/about">About</NavLink></li>
           <li><NavLink className="smoothscroll" to="/resume">Resume</NavLink></li>
           <li><NavLink className="smoothscroll" to="/portfolio">Works</NavLink></li>
-          <li><NavLink className="smoothscroll" to="/testimonials">Testimonials</NavLink></li>
+          <li><NavLink className="smoothscroll" to="/gallery">Gallery</NavLink></li>
           <li><NavLink className="smoothscroll" to="/contact">Contact</NavLink></li>
         </ul>
       </nav>
