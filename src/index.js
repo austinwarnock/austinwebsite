@@ -9,6 +9,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 const store = createStore();
 
+
+if (window.location.href === "meet.austinwarnock.tech") {
+   window.location.href = 'https://meet.google.com/cad-yrie-umu'; 
+}
+
 if (process.env.NODE_ENV === 'development') {
   const a11y = require('react-a11y').default;
   a11y(React, ReactDOM, {
