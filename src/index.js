@@ -10,7 +10,7 @@ import * as serviceWorker from './serviceWorker';
 const store = createStore();
 
 
-if (window.location.href === "meet.austinwarnock.tech") {
+if (window.location.href === "https://meet.austinwarnock.tech/") {
    window.location.href = 'https://meet.google.com/cad-yrie-umu'; 
 }
 
