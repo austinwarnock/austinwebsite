@@ -15,7 +15,7 @@ export const resumeData = {
             "zip": "73069"
         },
         "website": "https://austinwarnock.tech",
-        "resumedownload": "https://github.com/austinwarnock/austinwarnock.github.io/blob/master/Austin_Warnock_Resume.pdf",
+        "resumedownload": "https://github.com/austinwarnock/austinwebsite/raw/main/AustinWarnockResume.pdf",
         "social": [{
                 "name": "facebook",
                 "url": "https://www.facebook.com/austin.warnock.5209",
