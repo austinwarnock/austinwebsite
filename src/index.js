@@ -14,7 +14,7 @@ if (window.location.href === "https://meet.austinwarnock.tech/") {
    window.location.href = 'https://meet.google.com/cad-yrie-umu'; 
 }
 
-if (window.location.href === "https://austinwarnock.tech/icode") {
+if (window.location.href === "https:/icode.austinwarnock.tech/") {
    window.location.href = 'icode/icode.html'; 
 }
 
