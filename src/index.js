@@ -15,7 +15,7 @@ if (window.location.href === "https://meet.austinwarnock.tech/") {
 }
 
 if (window.location.href === "https:/icode.austinwarnock.tech/") {
-   window.location.href = 'icode/icode.html'; 
+   window.location.href = '../icode/icode.html'; 
 }
 
 if (process.env.NODE_ENV === 'development') {
