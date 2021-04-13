@@ -10,6 +10,7 @@ import Contact from './Routes/Contact';
 import Gallery from './Routes/Gallery';
 import Portfolio from './Routes/Portfolio';
 import NotFound from './Components/NotFound';
+import icode from './Routes/icode';
 
 export default (
   <React.Fragment>
@@ -20,6 +21,7 @@ export default (
       <Route exact path="/portfolio" component={Portfolio} />
       <Route exact path="/gallery" component={Gallery} />
       <Route exact path="/Contact" component={Contact} />
+      <Route exact path="/icode" component={icode} />
       <Route component={NotFound} />
     </Switch>
     <Footer />
