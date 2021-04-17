@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html>
 <body>
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+<script>
+const fs = require("fs");
+    let filenames = fs.readdirSync('./students');
+      
+    console.log("\nFilenames in directory:");
+    filenames.forEach((file) => {
+        console.log("File:", file);
+        var li = window.document.createElement('li');
+        file.forEach((subfile) => {
+            li.appendChild(`<a href="${subfile}">` + file + '</a>');
+        });
+        
+    });</script>
+<h1>iCode Student HTML Examples</h1>
+  <a href="./students/">Click here to see student's websites</a>
 </body>
 </html>
