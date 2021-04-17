@@ -1,20 +1,15 @@
 <!DOCTYPE html>
 <html>
 <body>
-<script>
-const fs = require("fs");
-    let filenames = fs.readdirSync('./students');
-      
-    console.log("\nFilenames in directory:");
-    filenames.forEach((file) => {
-        console.log("File:", file);
-        var li = window.document.createElement('li');
-        file.forEach((subfile) => {
-            li.appendChild(`<a href="${subfile}">` + file + '</a>');
-        });
-        
-    });</script>
+
 <h1>iCode Student HTML Examples</h1>
-  <a href="./students/">Click here to see student's websites</a>
+  <ul>              
+    <li><a href="./students/Benjamin/Benjamin.html">Benjamin</a></li>
+    <li><a href="./students/Henry/henry.html">Henry</a></li>
+    <li><a href="./students/Isai/isai.HTML">Isai</a></li>
+    <li><a href="./students/Landry/landry.html">Landry</a></li>
+    <li><a href="./students/Teddy/teddy.html">Teddy</a></li>
+    <li><a href="./students/Xander/Xander.HTML">Xander</a></li>
+</ul>
 </body>
 </html>
