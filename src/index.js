@@ -14,6 +14,10 @@ if (window.location.href === "https://meet.austinwarnock.tech/") {
    window.location.href = 'https://meet.google.com/cad-yrie-umu'; 
 }
 
+if (window.location.href === "https:/icode.austinwarnock.tech/") {
+   window.location.href = './icode/icode.html'; 
+}
+
 if (process.env.NODE_ENV === 'development') {
   const a11y = require('react-a11y').default;
   a11y(React, ReactDOM, {
