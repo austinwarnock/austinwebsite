@@ -1,4 +1,5 @@
 import {FC, memo, useCallback, useMemo, useState} from 'react';
+import axios from 'axios';
 
 interface FormData {
   name: string;
@@ -36,6 +37,30 @@ const ContactForm: FC = memo(() => {
        * This is a good starting point to wire up your form submission logic
        * */
       console.log('Data to send: ', data);
+      try {
+        const response = await axios.post(
+          'https://api.sendgrid.com/v3/mail/send',
+          {
+            personalizations: [
+              {
+                to: [{ email: 'contact@austinwarnock.tech' }],
+                subject: data.name + ' sent you a message from your website',
+              },
+            ],
+            from: { email: data.email },
+            content: [{ type: 'text/plain', value: data.message }],
+          },
+          {
+            headers: {
+              Authorization: `Bearer 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`,
+            },
+          }
+        );
+  
+        console.log('Email sent:', response);
+      } catch (error) {
+        console.error('Error sending email:', error);
+      }
     },
     [data],
   );
