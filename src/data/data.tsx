@@ -8,8 +8,6 @@ import {
   SparklesIcon,
 } from '@heroicons/react/outline';
 
-import { resumeData } from './resumeData';
-
 import GithubIcon from '../components/Icon/GithubIcon';
 //import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
@@ -41,6 +39,7 @@ import {
   TestimonialSection,
   TimelineItem,
 } from './dataDef';
+import {resumeData} from './resumeData';
 
 /**
  * Page meta data
