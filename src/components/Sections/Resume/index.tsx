@@ -1,6 +1,6 @@
 import {FC, memo} from 'react';
 
-import {awards, education, experience, leadership,SectionId, skills} from '../../../data/data';
+import {education, experience, SectionId, skills} from '../../../data/data';
 import Section from '../../Layout/Section';
 import ResumeSection from './ResumeSection';
 import {SkillGroup} from './Skills';
@@ -21,21 +21,12 @@ const Resume: FC = memo(() => {
           ))}
         </ResumeSection>
         <ResumeSection title="Skills">
+          <p className="pb-8">Here you can show a snapshot of your skills to show off to employers</p>
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
             {skills.map((skillgroup, index) => (
               <SkillGroup key={`${skillgroup.name}-${index}`} skillGroup={skillgroup} />
             ))}
           </div>
-        </ResumeSection>
-        <ResumeSection title="Awards">
-          {awards.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
-        </ResumeSection>
-        <ResumeSection title="Leadership">
-          {leadership.map((item, index) => (
-            <TimelineItem item={item} key={`${item.title}-${index}`} />
-          ))}
         </ResumeSection>
       </div>
     </Section>

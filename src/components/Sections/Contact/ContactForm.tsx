@@ -36,7 +36,6 @@ const ContactForm: FC = memo(() => {
        * This is a good starting point to wire up your form submission logic
        * */
       console.log('Data to send: ', data);
-
     },
     [data],
   );
