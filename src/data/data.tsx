@@ -103,7 +103,6 @@ export const aboutData: About = {
   description: resumeData.main.bio,
   aboutItems: [
     {label: 'Location', text: 'Kansas City, MO', Icon: MapIcon},
-    {label: 'Age', text: '24', Icon: CalendarIcon},
     {label: 'Interests', text: 'Music, Home Labbing, Camping', Icon: SparklesIcon},
     {label: 'Undergraduate Study', text: 'University of Oklahoma', Icon: AcademicCapIcon},
     {label: 'Graduate Study', text: ' Georgia Institute of Technology', Icon: AcademicCapIcon},
