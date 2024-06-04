@@ -3,7 +3,7 @@ export const resumeData = {
       name: "Austin Warnock",
       occupation: "Computer Scientist",
       description:
-        "In addition to being a full time software developer, I am also pursuing a Master's Degree in Computer Science at the Georgia Institute of Technology. I have a passion for learning about technology and using it to help the world around me",
+        "In addition to being a full time software developer, I recently earned Master's Degree in Computer Science from the Georgia Institute of Technology. I have a passion for learning about technology and using it to help the world around me",
       image: "profilepic.JPG",
       hobbies: 'In my free time, I enjoy playing my French Horn, exploring the outdoors, and watching OU Football.',
       bio: "Austin is currently a full time software developer at Burns & McDonnell and a part time student at Georgia Tech. At Burns & Mac, Austin does 'a little bit of everything' and focuses more on driving innovation and improving workflows rather than sticking to one particular tech stack. At Georgia Tech, Austin is studying Computer Science with an emphasis in machine learning. In his free time, Austin enjoys exploring the outdoors, maintaining his homelab, playing his countless musical instruments, and spending time with his beautiful wife Elizabeth.",
@@ -51,7 +51,7 @@ export const resumeData = {
           school: "Georgia Institue of Technology",
           degree: "Master of Science Computer Science",
           graduated: "May 2023",
-          description: "Data & Visual Analytics, Machine Learning for Trading, Computer Networks, Introduction to Information Security"
+          description: "Data & Visual Analytics, Machine Learning for Trading, Computer Networks, Introduction to Information Security, Graduate Algorithms"
         },
         {
           school: "The University of Oklahoma",
@@ -111,7 +111,7 @@ export const resumeData = {
           title: "Software Development Intern",
           years: "June 2020 - Semptember 2020",
           description: [
-            "Improved end user experience and application efficiency by introducing a database wide schemachange to categorize assets geographically - reducing data sent in APIs by 50%.",
+            "Improved end user experience and application efficiency by introducing a database wide schema change to categorize assets geographically - reducing data sent in APIs by 50%.",
             "Gained hands-on experience with programming languages and tools such as Angular, SQL, and Git, as well as with software development methodologies such as Agile and Scrum. Demonstrated a strong ability to learn new technologies quickly and apply them effectively in real-world settings.",
             "Contributed to the development and maintenance of software applications and tools that supported key business functions such as accounting, finance, and operations.",
   

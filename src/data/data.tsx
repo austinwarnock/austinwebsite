@@ -2,7 +2,6 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
-  CalendarIcon,
   MapIcon,
   SparklesIcon} from '@heroicons/react/24/outline';
 
@@ -120,39 +119,39 @@ export const skills: SkillGroup[] = resumeData.resume.skills;
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Graph Parser',
+    description: 'Sample project to explore the creation a of custom parser in python. Parses a graph from a text file and performs various operations on the graph.',
+    url: 'https://github.com/austinwarnock/Graph-Parser',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Syncsemble',
+    description: 'A marching band movement visualization tool built with React and Three.js. Supports visualizations in 2D, 3D, and AR',
+    url: 'https://www.syncsemble.com/',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Spotify Music Recommender',
+    description: 'Custom built music recommender system using Spotify API and machine learning. Also presents user with several data visualizations comparing their music taste to the average Spotify user.',
+    url: 'https://musicrecommender.austinwarnock.tech/',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Mobile Guided Tours',
+    description: 'Winner of best domain name and best design at 2021 OU Hackathon. A web app that uses NFC tags to provide guided tours of the University of Oklahoma campus.',
+    url: 'https://mobiletours.austinwarnock.tech/',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Command Line Tools',
+    description: 'A small repo implementing custom versions of some of the most popular GNU commands. Written in C.',
+    url: 'https://github.com/austinwarnock/CommandLineTools',
     image: porfolioImage5,
   },
   {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Distributed Rubiks Cube Solver',
+    description: 'A distributed Rubiks Cube solver built with Python and Docker. Uses a distributed architecture to pass an unsolved cube through a series of solvers until the cube is solved.',
+    url: 'https://github.com/austinwarnock/Distributed-Rubiks-Cube-Solver',
     image: porfolioImage6,
   },
   {
@@ -196,7 +195,7 @@ export const education: TimelineItem[] = [
     location: 'Georgia Institute of Technology',
     title: 'Master of Science in Computer Science - Specialization in Machine Learning',
     content: <p>
-      <strong>Relevant Courses:</strong> Machine Learning, Data & Visual Analytics, Machine Learning for Trading, Computer Networks, Introduction to Information Security
+      <strong>Relevant Courses:</strong> Machine Learning, Data & Visual Analytics, Machine Learning for Trading, Computer Networks, Introduction to Information Security, Graduate Algorithms
     </p>,
   },
   {
